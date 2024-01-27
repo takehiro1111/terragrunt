@@ -6,7 +6,7 @@ remote_state {
     backend = "s3"
     
     config = {
-    bucket  = "terragrunt-test-20240106"
+    bucket  = "terragrunt-test-new"
     key     = "${path_relative_to_include()}.tfstate"
     region  = "ap-northeast-1"
     acl     = "private"
